@@ -11,6 +11,12 @@ import { BasicosComponent } from './pages/basicos/basicos.component';
 import { OrdenarComponent } from './pages/ordenar/ordenar.component';
 
 
+//* Pipes
+import { MayusculasPipe } from './pipes/mayusculas.pipe';
+import { VuelaPipe } from './pipes/vuela.pipe';
+import { OrdenarPipe } from './pipes/ordenar.pipe';
+
+
 
 
 @NgModule({
@@ -18,7 +24,12 @@ import { OrdenarComponent } from './pages/ordenar/ordenar.component';
     NumerosComponent,
     NoComunesComponent,
     BasicosComponent,
-    OrdenarComponent
+    OrdenarComponent,
+
+    //* Pies
+    MayusculasPipe,
+    OrdenarPipe,
+    VuelaPipe
   ],
   exports: [
     NumerosComponent,
